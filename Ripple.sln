@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ripple - Standalone Plugin", "Ripple_StandalonePlugin.vcxproj", "{B3FEA799-D6FF-A483-2200-A4B206FFBA07}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6AFF2B5A-B7B9-4974-CAD1-DC18B9689DD2} = {6AFF2B5A-B7B9-4974-CAD1-DC18B9689DD2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ripple - VST3", "Ripple_VST3.vcxproj", "{9551253C-30FD-73F5-23B8-A0971C0B53DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6AFF2B5A-B7B9-4974-CAD1-DC18B9689DD2} = {6AFF2B5A-B7B9-4974-CAD1-DC18B9689DD2}
+		{A613F351-A8FC-8DE1-A9A1-A0BDED9C26A3} = {A613F351-A8FC-8DE1-A9A1-A0BDED9C26A3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ripple - Shared Code", "Ripple_SharedCode.vcxproj", "{6AFF2B5A-B7B9-4974-CAD1-DC18B9689DD2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ripple - VST3 Manifest Helper", "Ripple_VST3ManifestHelper.vcxproj", "{A613F351-A8FC-8DE1-A9A1-A0BDED9C26A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9551253C-30FD-73F5-23B8-A0971C0B53DC}.Debug|x64.ActiveCfg = Debug|x64
+		{9551253C-30FD-73F5-23B8-A0971C0B53DC}.Debug|x64.Build.0 = Debug|x64
+		{9551253C-30FD-73F5-23B8-A0971C0B53DC}.Release|x64.ActiveCfg = Release|x64
+		{9551253C-30FD-73F5-23B8-A0971C0B53DC}.Release|x64.Build.0 = Release|x64
+		{B3FEA799-D6FF-A483-2200-A4B206FFBA07}.Debug|x64.ActiveCfg = Debug|x64
+		{B3FEA799-D6FF-A483-2200-A4B206FFBA07}.Debug|x64.Build.0 = Debug|x64
+		{B3FEA799-D6FF-A483-2200-A4B206FFBA07}.Release|x64.ActiveCfg = Release|x64
+		{B3FEA799-D6FF-A483-2200-A4B206FFBA07}.Release|x64.Build.0 = Release|x64
+		{6AFF2B5A-B7B9-4974-CAD1-DC18B9689DD2}.Debug|x64.ActiveCfg = Debug|x64
+		{6AFF2B5A-B7B9-4974-CAD1-DC18B9689DD2}.Debug|x64.Build.0 = Debug|x64
+		{6AFF2B5A-B7B9-4974-CAD1-DC18B9689DD2}.Release|x64.ActiveCfg = Release|x64
+		{6AFF2B5A-B7B9-4974-CAD1-DC18B9689DD2}.Release|x64.Build.0 = Release|x64
+		{A613F351-A8FC-8DE1-A9A1-A0BDED9C26A3}.Debug|x64.ActiveCfg = Debug|x64
+		{A613F351-A8FC-8DE1-A9A1-A0BDED9C26A3}.Debug|x64.Build.0 = Debug|x64
+		{A613F351-A8FC-8DE1-A9A1-A0BDED9C26A3}.Release|x64.ActiveCfg = Release|x64
+		{A613F351-A8FC-8DE1-A9A1-A0BDED9C26A3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
